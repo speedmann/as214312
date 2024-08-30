@@ -18,7 +18,7 @@ Welcome to the comprehensive overview of **AS214312**, an IPv6-only autonomous s
 As an IPv6-only autonomous system, AS214312 currently announces the following prefixes:
 
 - **Announced Prefixes**:
-  - `i2a0f:85c1:892::/48` Main Subnet, used for homelab connectivity
+  - `2a0f:85c1:892::/48` Main Subnet, used for homelab connectivity
 
 These prefixes are publicly available and are propagated through BGP, ensuring robust and reliable IPv6 connectivity.
 
