@@ -1,6 +1,6 @@
 ---
 title: "Fixing your geolocation"
-date: "2024-08-30T20:19:14+02:00"
+date: "2024-09-10T20:19:14+02:00"
 draft: false
 series: "Peering into the Network: A BGP Series"
 tags:
