@@ -1,33 +1,43 @@
 ---
-title: "Acquiring your AS"
+title: "Acquiring Your Autonomous System (AS)"
 date: "2024-09-01T10:19:14+02:00"
 draft: false
 series: "Peering into the Network: A BGP Series"
 tags: ["Autonomous System", "BGP", "Networking", "Internet Infrastructure", "IPv6", "RIPE NCC", "ASNs"]
 ---
-So you have dec
 
-So you have decided that you want to have your own AS and you want to start the journey. 
+Embarking on the journey to obtain your own Autonomous System (AS) is a significant step in enhancing your network capabilities. However, it's important to note that this venture can become quite costly over time.
 
-> **A word of warning:** This journey can become quiet expensive over the time. Please be aware of this.
+> **Important Notice:** The financial commitment associated with maintaining an AS can increase as you expand your resources. Please consider this before proceeding.
 
-Since 2024 RIPE decided that an AS and PI (Provider Independant) IP resrouces will be invoiced with 50€ (each) to the LIR.
-This results in at least 100€ fixed costs per year for this experiment. If you want more subnets and a VM with access to BGP sessions, you can add another 100€ per year.
+## What is an Autonomous System (AS)?
 
+An Autonomous System (AS) is a collection of IP networks and routers under the control of a single organization that presents a common routing policy to the internet. Owning an AS provides you with more control over your routing, especially if you manage a large or multi-homed network.
 
-## What do I need?
-Before you can begin, you need a LIR (Local internet Registry) to sponsor your resources. This is the easiest and cheapest way to get your AS. (You could become as RIPE member which costs 1.500€+)
+## Cost Considerations
 
-There are plenty of LIRs available and you can basically choose any of them to get your AS. Most important, please make sure they are actually are a [RIPE member](https://www.ripe.net/membership/member-support/list-of-members/)
+As of 2024, RIPE NCC has implemented a fee structure for AS and Provider Independent (PI) IP resources. Each resource incurs a charge of €50 per year, payable by the sponsoring Local Internet Registry (LIR). Consequently, you should anticipate at least €100 in annual fixed costs for this endeavor. If you require additional subnets or a virtual machine (VM) with access to BGP sessions, expect to incur an additional €100 annually.
 
-For my journey i chose UK based [lagrange cloud](https://lagrange.cloud/next-level-networking). As of today they offer to set up your AS for a 15£ flat fee. Additionally, I found their documentation really easy to understand, even if you have no prior knowledge about networking.
+In addition to the initial and annual fees for the AS and PI resources, consider potential costs for IP address space, equipment, and possible peering agreements. Running BGP sessions might also require investments in hardware or virtual routers.
 
-Their expansive documentation guides you through the process of registering your RIPE account and creating required resources. 
+## Prerequisites
 
-After you ordered your AS and filled in all information according to their documentation, you have to verify your ID. This is as simple as it gets and usually does not require any explanation. 
-Once your ID is verified and lagrange has checked everything, they will send you a docusign document to digitally sign the contract. Sign the contract and confirm you've done it in their cloud console/ticket.
+Before you begin the process, you'll need a Local Internet Registry (LIR) to sponsor your resources. This is generally the most cost-effective and straightforward way to obtain an AS. While you could opt to become a RIPE member yourself, this comes with a significant cost of over €1,500.
 
-The whole process can take a week or two so please be patient. 
+There are numerous LIRs to choose from, but it's crucial to ensure that the LIR you select is a verified [RIPE member](https://www.ripe.net/membership/member-support/list-of-members/). When selecting a Local Internet Registry (LIR), consider not only their RIPE membership but also their support quality, cost transparency, and service level agreements (SLAs). A good LIR will provide clear documentation, responsive customer support, and reliable services.
 
-This is everything you need to do, to get your own AS and your very first subnet. Wait for the next entry in this journey to see what is required to get the subnet working.
+For my own journey, I selected the UK-based provider [Lagrange Cloud](https://lagrange.cloud/next-level-networking). As of today, they offer AS setup services for a flat fee of £15. Their extensive documentation is particularly user-friendly, even for those without prior networking experience.
+
+Lagrange Cloud's documentation guides you through the process of registering your RIPE account and creating the necessary resources. After placing your order and completing the documentation, you will need to verify your identity. This process is straightforward and typically requires minimal explanation.
+
+Once your identity is verified and Lagrange Cloud has reviewed your application, they will send you a DocuSign document to digitally sign the contract. After signing, you’ll need to confirm the completion of this step in their cloud console or via a support ticket.
+
+Please note that the entire process may take one to two weeks, so patience is essential.
+
+## Next Steps
+
+After acquiring your AS, your next steps will include configuring your BGP sessions, establishing peering agreements, and setting up monitoring and management processes to ensure your AS operates smoothly. It's important to regularly review your routing policies and stay informed about network security best practices.
+
+Stay tuned for the next entry in this series, where we will explore the steps required to get your subnet up and running.
+
 
