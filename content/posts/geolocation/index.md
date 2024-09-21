@@ -17,7 +17,7 @@ tags:
 ---
 
 **Note:**  
-The method involving Regional Internet Registry (RIR) updates requires a Provider Independent (PI) `inet6num` or contact with your sponsor. You will need to modify your `inet6num` object to include new fields, which you might not have the necessary permissions for.
+You will need to modify your `inet6num` object to include new fields, which you might not have the necessary permissions for. Your MNT Handle needs to be set in the mnt-by field.
 
 ---
 
